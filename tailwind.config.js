@@ -10,12 +10,23 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary-black': '#1A232E',
-        'secondary-white': '#c7c7c7',
+        'primary-white': '#F2F3F4',
+        'secondary-red': '#ae0000',
       },
       transitionTimingFunction: {
         'out-flex': 'cubic-bezier(0.05, 0.6, 0.4, 0.9)',
       },
+    },
+    fontSize: {
+      xs: '0.5rem',
+      sm: '1rem',
+      base: '1.5rem',
+      lg: '2rem',
+      xl: '3.7rem',
+      '2xl': '4rem',
+      '3xl': '5rem',
+      '4xl': '6rem',
+      '5xl': '8rem',
     },
   },
   plugins: [],

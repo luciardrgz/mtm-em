@@ -105,3 +105,27 @@
   background: #65c4fa;
   filter: blur(150px);
 }
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #3d1818 0.89%,
+    #ae0000 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bg-hamburger-menu-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #ae0000 -43.27%,
+    #ae0000 -21.24%,
+    #830202 12.19%,
+    #d11c1c 29.82%,
+    #ae0000 51.94%,
+    #830202 90.29%
+  );
+}

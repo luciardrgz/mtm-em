@@ -14,11 +14,13 @@ const styles = {
   flexEnd: 'flex justify-end',
   navPadding: 'pt-[98px]',
 
-  // hero section
+  sectionTitle: 'font-bold lg:text-[2vw] md:text-[3vw] sm:text-[3vw] text-[6vw] lg:leading-tight md:leading-tight sm:leading-tight leading-tight text-gradient text-center',
+
   heroHeading:
-    'font-bold lg:text-[3vw] md:text-[3vw] sm:text-[3vw] text-[44px] lg:leading-tight md:leading-tight sm:leading-tight leading-tight text-gradient text-center',
+    'font-bold lg:text-[3vw] md:text-[3vw] sm:text-[3vw] text-[10vw] lg:leading-tight md:leading-tight sm:leading-tight leading-tight text-gradient text-center',
   heroSub:
-    'font-bold lg:text-[3vw] md:text-[3vw] sm:text-[3vw] text-[44px] lg:leading-tight md:leading-tight sm:leading-tight leading-tight text-black text-center',
+    'font-bold lg:text-[3vw] md:text-[3vw] sm:text-[3vw] text-[10vw] lg:leading-tight md:leading-tight sm:leading-tight leading-tight text-black text-center',
+
 };
 
 export default styles;

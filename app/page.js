@@ -1,5 +1,5 @@
 import { Navbar, Stats } from '../components';
-import { Hero } from '../sections';
+import { Hero, About, Services, Work } from '../sections';
 import styles from '../styles';
 
 const Page = () => (
@@ -9,6 +9,9 @@ const Page = () => (
     <div className={`${styles.flexCenter}`}>
       <Stats />
     </div>
+    <About />
+    <Services />
+    <Work />
   </div>
 );
 

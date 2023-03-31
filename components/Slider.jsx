@@ -5,9 +5,8 @@ import {
   faCircle,
 } from '@fortawesome/free-solid-svg-icons';
 import { React, useState } from 'react';
-import { slides } from '../utils/constants';
 
-const Slider = () => {
+const Slider = ({ slides, sliderHeight, sliderArrowsColor, imgOpacity }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
@@ -27,13 +26,13 @@ const Slider = () => {
   );
 
   return (
-    <div className="w-max-[1400px] h-[500px] w-full m-auto relative group">
+    <div className={`w-max-[1400px] ${sliderHeight} w-full m-auto relative group`}>
       <div
-        style={{ backgroundImage: `url(${slides[currentIndex].url})`, opacity: 0.5 }}
-        className="w-full h-[500px] rounded-2xl bg-center bg-cover duration-500"
+        style={{ backgroundImage: `url(${slides[currentIndex].url})`, opacity: imgOpacity }}
+        className={`w-full ${sliderHeight} rounded-2xl bg-center bg-cover duration-500`}
       />
 
-      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl text-black cursor-pointer">
+      <div className={`hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl p-2 text-${sliderArrowsColor} cursor-pointer`}>
         <FontAwesomeIcon
           icon={faChevronLeft}
           width={30}
@@ -42,7 +41,7 @@ const Slider = () => {
         />
       </div>
 
-      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl p-2 text-black cursor-pointer">
+      <div className={`hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl p-2 text-${sliderArrowsColor} cursor-pointer`}>
         <FontAwesomeIcon
           icon={faChevronRight}
           width={30}

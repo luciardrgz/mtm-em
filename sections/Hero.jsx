@@ -4,11 +4,12 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import Slider from '../components/Slider';
 import { staggerContainer, textVariant } from '../utils/motion';
+import { industrial } from '../utils/constants';
 
 const Hero = () => (
-  <section className="sm:py-16 xs:py-8 py-20 p-6">
+  <section className="sm:py-16 xs:py-8 py-20 p-6" id="home">
     <div className="relative h-45 mt-10">
-      <Slider />
+      <Slider slides={industrial} sliderHeight="h-[500px]" sliderArrowsColor="black" imgOpacity={0.5} />
       <motion.div
         variants={staggerContainer}
         initial="hidden"

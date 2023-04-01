@@ -1,4 +1,4 @@
-import { faBuildingFlag, faIndustry, faStore, faArrowUpRightDots, faArrowTrendUp } from '@fortawesome/free-solid-svg-icons';
+import { faBuildingFlag, faIndustry, faStore, faArrowUpRightDots, faArrowTrendUp, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 export const navLinks = [
   {
@@ -96,17 +96,32 @@ export const servicesDetails = [
     description: 'Información para PYMES',
   },
   {
-    id: 'world-4',
+    id: 'service4',
     imgUrl: '/industria4.jpg',
     icon: faArrowUpRightDots,
     title: 'Micro Industrias',
     description: 'Información para micro industrias',
   },
   {
-    id: 'world-5',
+    id: 'service5',
     imgUrl: '/industria5.jpg',
     icon: faArrowTrendUp,
     title: 'Mini PYMES',
     description: 'Información para mini pymes',
+  },
+];
+
+export const contactInfo = [
+  {
+    id: 'phone',
+    icon: faPhone,
+    title: 'Llamanos',
+    info: '+54 9 223 582 8183',
+  },
+  {
+    id: 'location',
+    icon: faLocationDot,
+    title: 'Estamos aquí',
+    info: 'Mar del Plata, Buenos Aires, Argentina (C.P. B7600)',
   },
 ];

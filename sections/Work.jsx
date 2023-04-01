@@ -33,7 +33,6 @@ const Work = () => (
           slides={particular}
           sliderHeight="h-[31.25rem]"
           sliderArrowsColor="white"
-          imgOpacity={1}
         />
       </div>
       <CTAInstagram />

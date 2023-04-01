@@ -4,6 +4,7 @@ import { TypingText, TitleText } from './CustomTexts';
 import ServicesCard from './ServicesCard';
 import ContactCard from './ContactCard';
 import CTAInstagram from './CTAInstagram';
+import StickyBar from './StickyBar';
 
 export {
   Navbar,
@@ -13,4 +14,5 @@ export {
   ServicesCard,
   ContactCard,
   CTAInstagram,
+  StickyBar,
 };

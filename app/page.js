@@ -1,5 +1,5 @@
 import { Navbar, Stats } from '../components';
-import { Hero, About, Services, Work } from '../sections';
+import { Hero, About, Services, Work, Contact, Footer } from '../sections';
 import styles from '../styles';
 
 const Page = () => (
@@ -12,6 +12,8 @@ const Page = () => (
     <About />
     <Services />
     <Work />
+    <Contact />
+    <Footer />
   </div>
 );
 

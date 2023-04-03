@@ -6,7 +6,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { React, useState } from 'react';
 
-const Slider = ({ slides, sliderHeight, sliderArrowsColor }) => {
+const Slider = ({ slides, sliderHeight, sliderArrowsColor, overlay }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
@@ -27,7 +27,7 @@ const Slider = ({ slides, sliderHeight, sliderArrowsColor }) => {
     <div
       className={`w-max-[1400px] ${sliderHeight} w-full m-auto relative group`}
     >
-      <div className="w-full h-full absolute top-0 left-0 bg-[#ffffff81] rounded-2xl" />
+      {overlay === true ? <div className="w-full h-full absolute top-0 left-0 bg-[#ffffff81] rounded-2xl" /> : null}
       <div
         style={{
           backgroundImage: `url(${slides[currentIndex].url})`,

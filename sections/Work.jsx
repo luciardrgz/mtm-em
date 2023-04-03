@@ -24,7 +24,7 @@ const Work = () => (
           slides={particular}
           sliderHeight="h-[47rem]"
           sliderArrowsColor="white"
-          imgOpacity={1}
+          overlay={false}
         />
       </div>
 
@@ -33,6 +33,7 @@ const Work = () => (
           slides={particular}
           sliderHeight="h-[31.25rem]"
           sliderArrowsColor="white"
+          overlay={false}
         />
       </div>
       <CTAInstagram />

@@ -9,7 +9,7 @@ import { industrial } from '../utils/constants';
 const Hero = () => (
   <section className={`${styles.paddings}`} id="home">
     <div className="relative h-45 mt-20">
-      <Slider slides={industrial} sliderHeight="h-[500px]" sliderArrowsColor="black" />
+      <Slider slides={industrial} sliderHeight="h-[500px]" sliderArrowsColor="black" overlay />
       <motion.div
         variants={staggerContainer}
         initial="hidden"

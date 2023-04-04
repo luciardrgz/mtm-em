@@ -17,8 +17,8 @@ const Navbar = () => {
       className={`${styles.xPaddings} fixed top-0 left-0 w-full bg-[#ae0000] flex items-center h-[82px] z-20`}
     >
       <img
-        src="/logo.png"
-        alt="mtmLogo"
+        src="/logo.webp"
+        alt="MTM logo"
         className="w-[140px] object-contain fixed left-0"
       />
 
@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? '/close.svg' : '/menu.svg'}
-          alt="menu"
+          alt=""
           className="w-[28px] h-[28px] object-contain"
           onClick={() => setToggle((prev) => !prev)}
         />

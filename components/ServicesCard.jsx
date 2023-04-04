@@ -17,6 +17,7 @@ const ServicesCard = ({ id, imgUrl, title, description, icon, index, active, han
       src={imgUrl}
       alt={title}
       className="absolute w-full h-full object-cover rounded-[24px]"
+      loading="lazy"
     />
     {active !== id && (
     <div

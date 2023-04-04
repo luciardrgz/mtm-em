@@ -1,61 +1,38 @@
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faChevronLeft,
-  faChevronRight,
-  faCircle,
-} from '@fortawesome/free-solid-svg-icons';
-import { React, useState } from 'react';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
+import SliderControls from './SliderControls';
 
-const Slider = ({ slides, sliderHeight, sliderArrowsColor, overlay }) => {
+const Slider = ({ slides, sliderHeight, controlsColor, overlay }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const prevSlide = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-    setCurrentIndex(newIndex);
-  };
+  const prevSlide = (newIndex) => setCurrentIndex(newIndex);
 
-  const nextSlide = () => {
-    const isLastSlide = currentIndex === slides.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
-  };
+  const nextSlide = (newIndex) => setCurrentIndex(newIndex);
 
   const goToSlide = (slideIndex) => setCurrentIndex(slideIndex);
 
   return (
-    <div
-      className={`w-max-[1400px] ${sliderHeight} w-full m-auto relative group`}
-    >
-      {overlay === true ? <div className="w-full h-full absolute top-0 left-0 bg-[#ffffff81] rounded-2xl" /> : null}
+    <div className={`w-max-[1400px] ${sliderHeight} w-full m-auto relative group`}>
+      {overlay === true ? (
+        <div className="w-full h-full absolute top-0 left-0 bg-[#ffffff81] rounded-2xl" />
+      ) : null}
       <div
         style={{
           backgroundImage: `url(${slides[currentIndex].url})`,
         }}
         className={`w-full ${sliderHeight} rounded-2xl bg-center bg-cover duration-500`}
+        alt={slides[currentIndex].title}
+        loading="lazy"
       />
 
-      <div
-        className={`hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl p-2 text-${sliderArrowsColor} cursor-pointer`}
-      >
-        <FontAwesomeIcon
-          icon={faChevronLeft}
-          width={30}
-          height={30}
-          onClick={prevSlide}
-        />
-      </div>
-
-      <div
-        className={`hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl p-2 text-${sliderArrowsColor} cursor-pointer`}
-      >
-        <FontAwesomeIcon
-          icon={faChevronRight}
-          width={30}
-          height={30}
-          onClick={nextSlide}
-        />
-      </div>
+      <SliderControls
+        currentIndex={currentIndex}
+        slides={slides}
+        onPrevSlide={prevSlide}
+        onNextSlide={nextSlide}
+        controlsColor={controlsColor}
+      />
 
       <div className="flex top-4 justify-center py-2">
         {slides.map((slide, slideIndex) => (

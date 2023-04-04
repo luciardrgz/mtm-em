@@ -32,8 +32,8 @@ const Work = () => (
         <Slider
           slides={particular}
           sliderHeight="h-[31.25rem]"
-          sliderArrowsColor="white"
           overlay={false}
+          controlsColor="white"
         />
       </div>
       <CTAInstagram />

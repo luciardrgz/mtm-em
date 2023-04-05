@@ -23,7 +23,7 @@ const Work = () => (
         <Slider
           slides={particular}
           sliderHeight="h-[47rem]"
-          sliderArrowsColor="white"
+          controlsColor="white"
           overlay={false}
         />
       </div>

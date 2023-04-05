@@ -59,17 +59,17 @@ export const stats = [
   {
     id: 'stat1',
     title: 'Años de experiencia',
-    value: '+15',
+    value: '+4',
   },
   {
     id: 'stat2',
-    title: 'Empresas que confían',
-    value: '+20',
+    title: 'Clientes directos e indirectos',
+    value: '+50',
   },
   {
     id: 'stat3',
     title: 'Trabajos realizados',
-    value: '+25',
+    value: '+115',
   },
 ];
 

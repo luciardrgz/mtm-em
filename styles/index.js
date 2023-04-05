@@ -20,7 +20,11 @@ const styles = {
     'font-bold lg:text-[3vw] md:text-[3vw] sm:text-[3vw] text-[10vw] lg:leading-tight md:leading-tight sm:leading-tight leading-tight text-gradient text-center',
   heroSub:
     'font-bold lg:text-[3vw] md:text-[3vw] sm:text-[3vw] text-[10vw] lg:leading-tight md:leading-tight sm:leading-tight leading-tight text-black text-center',
+  workSlider: 'w-[42vh] h-[65vh] lg:w-full md:w-full lg:h-full md:h-full rounded-2xl bg-[#9f9f9f81] bg-center bg-contain bg-no-repeat duration-500',
+  workSliderContainer: 'w-max-[1400px] w-[42vh] h-[65vh] lg:w-full md:w-full m-auto relative group',
 
+  heroSlider: 'w-full m-auto relative group rounded-2xl bg-center bg-cover opacity-40 duration-500',
+  heroSliderContainer: 'w-full m-auto relative group',
 };
 
 export default styles;

@@ -49,10 +49,10 @@ const Slider = ({ slides, sliderHeight, controlsColor, overlay }) => {
           />
 
           <div className="flex top-4 justify-center py-2">
-            {slides.map((slideIndex) => (
+            {slides.map((slide, index) => (
               <div
-                key={slideIndex}
-                onClick={() => goToSlide(slideIndex)}
+                key={index}
+                onClick={() => goToSlide(index)}
                 className="text-xs mr-3 cursor-pointer"
               >
                 <FontAwesomeIcon icon={faCircle} color="#ae0000" />

@@ -1,4 +1,4 @@
-import { faBuildingFlag, faIndustry, faStore, faArrowUpRightDots, faArrowTrendUp, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faBuildingFlag, faIndustry, faStore, faArrowUpRightDots, faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 export const navLinks = [
   {
@@ -76,38 +76,31 @@ export const stats = [
 export const servicesDetails = [
   {
     id: 'service1',
-    imgUrl: '/industria1.webp',
-    icon: faBuildingFlag,
-    title: 'Estudios',
-    description: 'Información para estudios de arquitectura, consorcio e inmobiliarias',
-  },
-  {
-    id: 'service2',
     imgUrl: '/industria2.webp',
     icon: faIndustry,
     title: 'Industrias',
-    description: 'Información para industrias y pymes',
+    description: '• Instalaciones trifásicas,  monofásicas y de control en 24V\n• Uso de materiales normalizados\n• Instalación de bandejas portacables\n• Reparación de automatizaciones de máquinas\n• Programación e instalación de variadores de frecuencia',
+  },
+  {
+    id: 'service2',
+    imgUrl: '/industria1.webp',
+    icon: faBuildingFlag,
+    title: 'PYMES',
+    description: '• Instalaciones trifásicas,  monofásicas y de control en 24V\n• Uso de materiales normalizados\n• Instalación de bandejas portacables\n• Reparación de automatizaciones de máquinas\n• Programación e instalación de variadores de frecuencia',
   },
   {
     id: 'service3',
-    imgUrl: '/industria3.webp',
+    imgUrl: '/arquitectos.webp',
     icon: faStore,
-    title: 'PYMES',
-    description: 'Información para PYMES',
+    title: 'Obras eléctricas',
+    description: '• Arquitectos\n• Maestros mayores de obra\n• Consorcios\n• Instalaciones eléctricas monofásicas y trifásicas bajo norma AEA',
   },
   {
     id: 'service4',
-    imgUrl: '/industria4.webp',
+    imgUrl: '/particular0.webp',
     icon: faArrowUpRightDots,
-    title: 'Micro Industrias',
-    description: 'Información para micro industrias',
-  },
-  {
-    id: 'service5',
-    imgUrl: '/industria5.webp',
-    icon: faArrowTrendUp,
-    title: 'Mini PYMES',
-    description: 'Información para mini pymes',
+    title: 'Particulares',
+    description: '• Sectores sin iluminación\n• Instalación de disyuntor y puesta a tierra\n• Cambio de térmicas y disyuntores\n• Cambio de cables\n• Instalación de luminarias\n• Ampliaciones eléctricas\n• Casas inteligentes\n• Automáticos de tanques',
   },
 ];
 

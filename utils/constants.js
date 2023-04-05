@@ -45,6 +45,9 @@ export const particular = [
     url: '/particular2.webp',
   },
   {
+    url: '/particular0.webp',
+  },
+  {
     url: '/particular3.webp',
   },
   {
@@ -52,6 +55,33 @@ export const particular = [
   },
   {
     url: '/particular5.webp',
+  },
+  {
+    url: '/particular6.webp',
+  },
+  {
+    url: '/particular7.webp',
+  },
+  {
+    url: '/particular8.webp',
+  },
+  {
+    url: '/particular9.webp',
+  },
+  {
+    url: '/particular10.webp',
+  },
+  {
+    url: '/particular11.webp',
+  },
+  {
+    url: '/particular12.webp',
+  },
+  {
+    url: '/particular13.webp',
+  },
+  {
+    url: '/particular14.webp',
   },
 ];
 
@@ -90,7 +120,7 @@ export const servicesDetails = [
   },
   {
     id: 'service3',
-    imgUrl: '/arquitectos.webp',
+    imgUrl: '/particular15.webp',
     icon: faStore,
     title: 'Obras eléctricas',
     description: '• Arquitectos\n• Maestros mayores de obra\n• Consorcios\n• Instalaciones eléctricas monofásicas y trifásicas bajo norma AEA',

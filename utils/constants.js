@@ -21,7 +21,7 @@ export const navLinks = [
 
 export const industrial = [
   {
-    url: '/industria1.webp',
+    url: '/industria3.webp',
   },
   {
     url: '/industria2.webp',
@@ -34,6 +34,18 @@ export const industrial = [
   },
   {
     url: '/industria5.webp',
+  },
+  {
+    url: '/industria6.webp',
+  },
+  {
+    url: '/industria7.webp',
+  },
+  {
+    url: '/industria8.webp',
+  },
+  {
+    url: '/industria9.webp',
   },
 ];
 

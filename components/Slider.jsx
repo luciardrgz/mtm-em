@@ -51,7 +51,9 @@ const Slider = ({ slides, sliderHeight, controlsColor, section }) => {
               <div
                 key={index}
                 onClick={() => goToSlide(index)}
-                className="hidden lg:block md:block text-xs mr-3 cursor-pointer text-[#ae0000]"
+                className={`hidden lg:block md:block text-xs mr-3 cursor-pointer ${
+                  index === currentIndex ? 'text-gray-500' : 'text-[#ae0000]'
+                }`}
               >
                 <FontAwesomeIcon icon={faCircle} />
               </div>

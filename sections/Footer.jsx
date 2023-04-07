@@ -12,7 +12,7 @@ const Footer = () => (
           <h4 className="font-extrabold text-[24px] text-[#4d4d4d] text-center">
             MTM Soluciones Electromecánicas
           </h4>
-          <a href="https://www.linkedin.com/in/luciardrgz/" title="LinkedIn del desarrollador" target="_blank" rel="noreferrer" className="font-normal text-[14px] text-black opacity-20">
+          <a href="https://www.linkedin.com/in/luciardrgz/" title="LinkedIn del desarrollador" target="_blank" rel="noreferrer" className="font-normal text-[14px] text-[#c0c0c0]">
             luciardrgz | 2023
           </a>
         </div>

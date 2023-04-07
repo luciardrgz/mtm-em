@@ -32,9 +32,9 @@ const ServicesCard = ({
     {active !== id ? (
       <>
         <div className="absolute w-full h-full bg-[rgba(0,0,0,0.8)] rounded-[24px]" style={{ opacity: 0.8 }} />
-        <h3 className="font-semibold text-[5vw] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] sm:text-[1.3vw] sm:p-8 sm:justify-start sm:w-full flex-col">
+        <h2 className="font-semibold text-[5vw] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] sm:text-[1.3vw] sm:p-8 sm:justify-start sm:w-full flex-col">
           {title}
-        </h3>
+        </h2>
       </>
     ) : (
       <div className="absolute bottom-0 p-5 flex justify-start w-full flex-col bg-[rgba(0,0,0,0.79)] rounded-b-[24px]">

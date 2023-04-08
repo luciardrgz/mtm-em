@@ -2,7 +2,7 @@
 
 [Landing page](https://mtmelectromecanica.com/) for [MTM](https://www.instagram.com/mtm_s.e/), electromechanical solutions business from Mar del Plata, Argentina.
 
-<h6><i><a href="https://mtmelectromecanica.com/">Landing Page</a> con para <a href="https://www.instagram.com/mtm_s.e/">MTM</a>, empresa de soluciones electromecánicas de Mar del Plata, Argentina. </i></h6>
+<h6><i><a href="https://mtmelectromecanica.com/">Landing Page</a> para <a href="https://www.instagram.com/mtm_s.e/">MTM</a>, empresa de soluciones electromecánicas de Mar del Plata, Argentina. </i></h6>
 
 ## Technologies used
 <img src="https://logosvector.net/wp-content/uploads/2015/07/JavaScript_logo.png" height="20px"> [JavaScript](https://www.javascript.com/) as main language.

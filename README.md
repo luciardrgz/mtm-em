@@ -21,7 +21,7 @@
 <h6><i>Tailwind como framework CSS.</i></h6> <br/> 
 
 <img src="https://s3-eu-west-1.amazonaws.com/tpd/logos/580cbf960000ff0005966f44/0x0.png" height="20px"> [Hostinger](https://www.hostinger.com.ar/) as hosting platform.
-<h6><i>Vercel como plataforma de hosting.</i></h6> <br/> 
+<h6><i>Hostinger como plataforma de hosting.</i></h6> <br/> 
 
 <img src="https://user-images.githubusercontent.com/674621/71187801-14e60a80-2280-11ea-94c9-e56576f76baf.png" height="20px"> [Visual Studio Code](https://code.visualstudio.com/) as IDE.
 <h6><i>Visual Studio Code como IDE.</i></h6> <br/> 

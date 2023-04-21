@@ -15,9 +15,9 @@ const ContactCard = ({ id, icon, title, info }) => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col mt-9 ml-6`}
     >
-      <motion.h1 variants={textVariant(0.3)} className="lg:text-[2vw] md:text-[3vw] sm:text-[3vw] text-[6vw] font-bold text-gradient">
+      <motion.h2 variants={textVariant(0.3)} className="lg:text-[2vw] md:text-[3vw] sm:text-[3vw] text-[6vw] font-bold text-gradient">
         {title}
-      </motion.h1>
+      </motion.h2>
       {id === 'phone' ? <a href="tel:+5492235828183" title="Llamar a este teléfono" className="mt-4 sm:text-[1.2vw] text-[5vw] font-medium text-gray-900">{info}</a> : <p className="mt-4 sm:text-[1.2vw] text-[5vw] font-medium text-gray-900">{info}</p>}
     </motion.div>
   </div>

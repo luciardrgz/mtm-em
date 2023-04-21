@@ -19,6 +19,7 @@ const Navbar = () => {
       <img
         src="/logo.webp"
         alt="MTM logo"
+        title="MTM Soluciones Electromecánicas"
         className="w-[140px] object-contain fixed left-0"
       />
 
@@ -40,7 +41,8 @@ const Navbar = () => {
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? '/close.svg' : '/menu.svg'}
-          alt=""
+          alt="hamburger menu icon"
+          title="Menú"
           className="w-[28px] h-[28px] object-contain"
           onClick={() => setToggle((prev) => !prev)}
         />

@@ -7,9 +7,9 @@ const Stats = () => (
     <div className="grid gap-11 sm:gap-40 sm:grid-cols-3">
       {stats.map((stat) => (
         <div key={stat.id} className="text-center">
-          <h3 className="text-xl font-bold text-gradient leading-tight">
+          <h2 className="text-xl font-bold text-gradient leading-tight">
             {stat.value}
-          </h3>
+          </h2>
           <p className="font-semibold text-base uppercase">{stat.title}</p>
         </div>
       ))}

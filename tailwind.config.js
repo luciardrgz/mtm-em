@@ -5,6 +5,7 @@ module.exports = {
     './components/**/*.{html,js,jsx}',
     './sections/**/*.{html,js,jsx}',
     './styles/**/*.{js,jsx}',
+    './pages/404.js',
   ],
   mode: 'jit',
   theme: {

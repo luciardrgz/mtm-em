@@ -16,9 +16,9 @@ const Work = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col mt-9`}
     >
-      <motion.h1 variants={textVariant(0.3)} className={styles.sectionTitle}>
+      <motion.h2 variants={textVariant(0.3)} className={styles.sectionTitle}>
         Mirá nuestros trabajos
-      </motion.h1>
+      </motion.h2>
       <div className="mt-3 relative hidden lg:block md:block">
         <Slider
           slides={particular}

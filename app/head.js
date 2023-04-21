@@ -1,10 +1,10 @@
 const Head = () => (
   <>
-    <title>MTM | Soluciones Electromecánicas</title>
+    <title>MTM Soluciones Electromecánicas | Electricistas en Mar del Plata</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Electricidad, mecánica y automatización de procesos productivos - Mantenimiento industrial integral - Soluciones eléctricas para tu negocio o industria."
+      content="Electricidad, mecánica y automatización de procesos productivos. Mantenimiento industrial integral. Electricistas listos para trabajar en tu negocio o industria."
     />
     <meta
       name="keywords"
@@ -13,23 +13,23 @@ const Head = () => (
     <meta property="og:title" content="MTM Soluciones Electromecánicas" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="/logo.png" />
-    <meta property="og:url" content="https://mtm-electromecanica.vercel.app/" />
+    <meta property="og:url" content="https://mtmelectromecanica.com/" />
     <meta
       property="og:description"
-      content="Electricidad, mecánica y automatización de procesos productivos - Mantenimiento industrial integral"
+      content="Electricidad, mecánica y automatización de procesos productivos. Mantenimiento industrial integral. Electricistas listos para trabajar en tu negocio o industria."
     />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="MTM Soluciones Electromecánicas" />
     <meta
       name="twitter:description"
-      content="Electricidad, mecánica y automatización de procesos productivos - Mantenimiento industrial integral"
+      content="Electricidad, mecánica y automatización de procesos productivos. Mantenimiento industrial integral. Electricistas listos para trabajar en tu negocio o industria."
     />
     <meta name="twitter:image" content="/logo.png" />
 
     <link rel="icon" href="/logo.ico" />
 
-    <link rel="canonical" href="https://mtm-electromecanica.vercel.app/#home" />
+    <link rel="canonical" href="https://mtmelectromecanica.com/" />
 
     <meta name="author" content="Lucía Rodriguez" />
 

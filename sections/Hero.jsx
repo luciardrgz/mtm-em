@@ -18,10 +18,7 @@ const Hero = () => (
     >
       <div className="flex justify-center items-center flex-col relative">
         <motion.h1 variants={textVariant(0.1)} className={styles.heroHeading}>
-          Soluciones eléctricas
-        </motion.h1>
-        <motion.h1 variants={textVariant(0.1)} className={styles.heroSub}>
-          para tu negocio o industria.
+          Soluciones eléctricas <br /> para tu negocio o industria.
         </motion.h1>
       </div>
     </motion.div>

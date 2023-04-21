@@ -26,6 +26,7 @@ const ServicesCard = ({
     <img
       src={imgUrl}
       alt={title}
+      title={title}
       className="absolute w-full h-full object-cover rounded-[24px]"
       loading="lazy"
     />

@@ -20,13 +20,13 @@ const SliderControls = ({ currentIndex, slides, onPrevSlide, onNextSlide, contro
   return (
     <div>
       <div
-        className={`hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 lg:text-2xl md:text-2xl text-lg p-2 text-${controlsColor} cursor-pointer`}
+        className={`hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 lg:text-2xl md:text-2xl text-lg p-2 text-${controlsColor} md:text-black cursor-pointer`}
       >
         <FontAwesomeIcon icon={faChevronLeft} onClick={prevSlide} />
       </div>
 
       <div
-        className={`hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 lg:text-2xl md:text-2xl text-lg p-2 text-${controlsColor} cursor-pointer`}
+        className={`hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 lg:text-2xl md:text-2xl text-lg p-2 text-${controlsColor} md:text-black cursor-pointer`}
       >
         <FontAwesomeIcon icon={faChevronRight} onClick={nextSlide} />
       </div>

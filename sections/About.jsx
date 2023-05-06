@@ -6,7 +6,7 @@ import { TypingText } from '../components';
 import { staggerContainer, fadeIn } from '../utils/motion';
 
 const About = () => (
-  <section className={`${styles.paddings} mt-11 relative z-10`}>
+  <section className={`${styles.paddings} relative z-10`}>
     <div className="gradient-01 z-0" />
     <motion.div
       variants={staggerContainer}
@@ -19,8 +19,7 @@ const About = () => (
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-3 font-medium sm:text-[1.2vw] text-[5
-        vw] text-center text-black"
+        className="mt-3 font-medium text-base text-center text-black"
       >
         Somos MTM electricistas. Nuestro objetivo es garantizar la{' '}
         <span className="font-extrabold text-secondary-red">

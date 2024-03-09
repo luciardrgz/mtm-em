@@ -1,6 +1,6 @@
 const Head = () => (
   <>
-    <title>MTM Soluciones Electromecánicas | Electricistas en Mar del Plata</title>
+    <title>Electricistas en Mar del Plata | MTM Soluciones Electromecánicas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"

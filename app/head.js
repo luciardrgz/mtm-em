@@ -1,10 +1,10 @@
 const Head = () => (
   <>
-    <title>Electricistas en Mar del Plata | MTM Soluciones Electromecánicas</title>
+    <title>Electricistas en Mar del Plata | MTM Soluciones</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Electricidad, mecánica y automatización de procesos productivos. Mantenimiento industrial integral. Electricistas listos para trabajar en tu negocio o industria."
+      content="Electricidad, mecánica y automatización de procesos productivos. Mantenimiento industrial integral."
     />
     <meta
       name="keywords"
@@ -16,14 +16,14 @@ const Head = () => (
     <meta property="og:url" content="https://mtmelectromecanica.com/" />
     <meta
       property="og:description"
-      content="Electricidad, mecánica y automatización de procesos productivos. Mantenimiento industrial integral. Electricistas listos para trabajar en tu negocio o industria."
+      content="Electricidad, mecánica y automatización de procesos productivos. Mantenimiento industrial integral."
     />
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="MTM Soluciones Electromecánicas" />
     <meta
       name="twitter:description"
-      content="Electricidad, mecánica y automatización de procesos productivos. Mantenimiento industrial integral. Electricistas listos para trabajar en tu negocio o industria."
+      content="Electricidad, mecánica y automatización de procesos productivos. Mantenimiento industrial integral."
     />
     <meta name="twitter:image" content="/logo.png" />
 
